@@ -8,7 +8,7 @@ public class Contact {
     private String eMail;
     private String phone;
 
-    public Contact();
+    public Contact(){}
 
     public Contact(Long contactID, String firstName, String lastName, String eMail, String phone){
         this.contactID = contactID;
