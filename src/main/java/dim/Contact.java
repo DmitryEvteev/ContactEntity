@@ -46,10 +46,10 @@ public class Contact {
         return lastName;
     }
 
-    public void seteMail(String eMail) {
+    public void setEmail(String eMail) {
         this.eMail = eMail;
     }
-    public String geteMail() {
+    public String getEmail() {
         return eMail;
     }
 
