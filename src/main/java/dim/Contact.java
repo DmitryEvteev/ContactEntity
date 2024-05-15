@@ -46,10 +46,10 @@ public class Contact {
         return lastName;
     }
 
-    public void seteMail(String eMail) {
+    public void setEmail(String eMail) {
         this.eMail = eMail;
     }
-    public String geteMail() {
+    public String getEmail() {
         return eMail;
     }
 
@@ -62,6 +62,6 @@ public class Contact {
 
     @Override
     public String toString(){
-        return "Contact: { ";
+        return "Contact{" + "contactId=" + contactID + ", firstName=" + firstName + ", lastName=" + lastName + ", phone=" + phone + ", email=" + eMail + '}';
     }
 }
